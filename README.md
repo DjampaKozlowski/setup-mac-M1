@@ -28,5 +28,16 @@ conda create -n work_env python=3.9.9
 ``` 
 conda activate work_env
 ```
-4) Install jupyter notebook using conda (AND NOT PIP). Indeed, using pip (pip install jupyter), jupyter notebook kernel does not load. 
+4) Install jupyter notebook using conda (AND NOT PIP). 
+
+Indeed, using pip (pip install jupyter), jupyter notebook kernel does not load. 
+You can either run 
+```
+conda install jupyter 
+```
+or run the following command with the requirements.txt file from this repo
+```
+conda install -y -q --name work_env -c conda-forge --file requirements.txt
+```
+Et voila !
 
