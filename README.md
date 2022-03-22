@@ -40,5 +40,21 @@ or run the following command with the requirements.txt file from this repo
 ```
 conda install -y -q --name work_env -c conda-forge --file requirements.txt
 ```
+5) Pimp your jupyter notebooks with awesome extensions : 
+```
+jupyter contrib nbextension install --user
+jupyter nbextension enable code_prettify/code_prettify
+jupyter nbextension enable notify/notify
+jupyter nbextension enable ruler/main
+jupyter nbextension enable toc2/main
+jupyter nbextension enable execute_time/ExecuteTime
+jupyter nbextension enable comment-uncomment/main
+jupyter nbextension enable freeze/main
+jupyter nbextension enable keyboard_shortcut_editor/main
+jupyter nbextension enable spellchecker/main
+jupyter nbextension enable move_selected_cells/main
+jupyter nbextension enable rubberband/main
+
+```
 Et voila !
 
