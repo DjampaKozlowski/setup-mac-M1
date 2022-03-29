@@ -72,7 +72,7 @@ code --install-extension ms-toolsai.jupyter
  
 
 
-## conda environment
+## Conda environment
 
 ### Install
 
