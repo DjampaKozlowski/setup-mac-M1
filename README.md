@@ -10,14 +10,33 @@ xcode-select --install
 
 "Homebrew supports the Mac M1 chip (Apple silicon) beginning with the release of Homebrew 3.0.0 in February 2021. On Apple silicon, Homebrew installs files into the /opt/homebrew/ folder, which is not part of the default shell $PATH. You'll need to configure your shell environment so Homebrew packages are found and take priority over pre-installed tools."
 https://mac.install.guide/homebrew/index.html
-
+Install homebrew :
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
- Run these two commands in your terminal to add Homebrew to your PATH. Replace <username> with your username:
- ```echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<username>/.profile
+Run these two commands in your terminal to add Homebrew to your PATH. Replace <username> with your username:
+ ```
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<username>/.profile
 eval "$(/opt/homebrew/bin/brew shellenv)"
  ```
+Update homebrew :
+ ```
+ brew update
+ ```
+## Usefull tools
+ 
+ ```
+brew upgrade git         || brew install git
+brew upgrade gh          || brew install gh
+brew upgrade wget        || brew install wget
+brew upgrade openssl     || brew install openssl
+brew upgrade tree        || brew install tree
+brew upgrade ncdu        || brew install ncdu
+brew upgrade xz          || brew install xz
+brew upgrade readline    || brew install readline
+brew upgrade htop        || brew install htop
+ ```
+ 
 
 
 ## conda environment
