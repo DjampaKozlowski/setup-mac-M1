@@ -38,6 +38,24 @@ brew upgrade readline    || brew install readline
 brew upgrade htop        || brew install htop
  ```
  
+## GitHub CLI
+
+ First in order to login /!\ DO NOT EDIT THE MAIL
+ ```
+ gh auth login -s 'user:email' -w
+ ```
+ At the question 'What is you prefered protocol for Git operations?' select 'SSH'. Then select Y to the question 'Generate a new SSH key to add to your GitHub account?' (if no existing ssh key). 
+ 
+ Then follow the instructions
+ 
+ To check that we are properly connected, type :
+ ```
+gh auth status
+ ```
+ If Logged in to github.com as <YOUR USERNAME> , then all good 
+
+ 
+ 
  ## Visual Code 
  
  ```
