@@ -2,6 +2,9 @@
 
 ## brew
 
+"Homebrew supports the Mac M1 chip (Apple silicon) beginning with the release of Homebrew 3.0.0 in February 2021. On Apple silicon, Homebrew installs files into the /opt/homebrew/ folder, which is not part of the default shell $PATH. You'll need to configure your shell environment so Homebrew packages are found and take priority over pre-installed tools."
+https://mac.install.guide/homebrew/index.html
+
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
