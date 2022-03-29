@@ -87,7 +87,8 @@ wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge
 bash /tmp/Miniforge3-MacOSX-arm64.sh
 ```
 then type enter, then 'yes', then enter, then yes.
-4) Close the terminal and quit the terminal application
+
+ 4) /!\ Close the terminal and quit the terminal application
 
 ### Creating a work environment with jupyter notebook
 
