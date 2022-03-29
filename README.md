@@ -23,6 +23,7 @@ Update homebrew :
  ```
  brew update
  ```
+ 
 ## Usefull tools
  
  ```
@@ -35,6 +36,20 @@ brew upgrade ncdu        || brew install ncdu
 brew upgrade xz          || brew install xz
 brew upgrade readline    || brew install readline
 brew upgrade htop        || brew install htop
+ ```
+ 
+ ## Visual Code 
+ 
+ ```
+ brew install --cask visual-studio-code
+ ```
+ if code works,
+ ```
+code --install-extension ms-vscode.sublime-keybindings
+code --install-extension ms-python.python
+code --install-extension KevinRose.vsc-python-indent
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
  ```
  
 
