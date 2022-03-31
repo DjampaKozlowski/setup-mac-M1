@@ -106,8 +106,8 @@ conda activate work_env
 Indeed, using pip (pip install jupyter), jupyter notebook kernel does not load. 
 You can either run 
 ```
-conda install -c conda-forge jupyter 
-conda install -c conda-forge jupyter_contrib_nbextensions
+y | conda install -c conda-forge jupyter 
+y | conda install -c conda-forge jupyter_contrib_nbextensions
 ```
 or run the following command with the requirements.txt file from this repo
 ```
